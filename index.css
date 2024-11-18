@@ -1,0 +1,155 @@
+body{
+    margin:0px;
+    background-color:#ffe868;
+}
+
+footer{
+    text-align:center;
+    background-color:black;
+    color:#ffe868;
+    margin:0;
+}
+
+header{
+    height:auto;
+    width:fit-content;
+    background-image:url(l.jpg);
+}
+
+#title{
+    text-align:center;
+    font-size:5em;
+    font-family:Impact;
+    color:gold;
+}
+
+.pagination{
+    text-align:center;
+    text-align:center;
+}
+
+.pagination a{
+    color:yellow;
+    text-decoration:none;
+    padding:8px 10px;
+    display:inline-block;
+}
+
+.pagination a.active{
+    background-color:yellow;
+    color:black; 
+    font-weight:bold;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active){
+    background-color:#383835;
+    border-radius:5px;
+}
+
+#markus{
+    margin:0;
+}
+
+#headtext{
+    text-align:center;
+    color:rgb(0, 0, 0);
+}
+
+#intro{
+    margin-right:10%;
+    margin-left:10%;
+    text-align:justify;
+    border:1px black solid;
+}
+
+#intr{
+    text-align:center;
+    display:inline;
+    margin-left:300px;
+}
+
+#child{
+    margin-left:5%;
+    margin-right:5%;
+    text-align:justify;
+}
+
+#baby{
+    float:left;
+    margin-right:10px;
+    animation-name:slideLeft;
+    animation-duration:2s;
+}
+
+#kid{
+    float:left;
+    margin-right:10px;
+    animation-name:slideLeft;
+    animation-duration:2s;
+}
+
+#master{
+    float:right;
+    margin-left:10px;
+    animation-name:rotate;
+    animation-duration:2s;
+}
+
+#lee{
+    float:right;
+    margin-left:10px;
+    animation-name:rotate;
+    animation-duration:2s;
+}
+
+.second{
+    overflow:flow-root;
+}
+
+@keyframes slideRight{
+    to{transform:translateX(300%)}
+}
+@keyframes slideLeft{
+    from{transform:translateX(300%)}
+}
+@keyframes rotate{
+    100%{transform:rotateX(360deg)}
+}
+
+#vid1{
+    margin-left:10%;
+    margin-right:10%;
+    text-align:center;
+    text-decoration:none;
+    font-family:verdana;
+    font-size:1em;
+}
+
+#pag3div{
+    margin-left:10%;
+    margin-right:10%;
+    text-align:justify;
+}
+
+#pag3div2{
+    margin-left:10%;
+    margin-right:10%;
+    text-align:justify;
+}
+
+.slide{
+    margin-left:20%;
+    margin-right:20%;
+    text-align:center;
+    margin:auto;
+}
+
+#hits{
+    text-align:center;
+    margin:auto;
+}
+
+#pag4{
+    text-align:center;
+}
